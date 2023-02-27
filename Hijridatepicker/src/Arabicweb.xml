@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.arabicweb.Arabicweb" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Arabicweb</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+           <property key="date" type="attribute">
+                <caption>Attribute</caption>
+                <description>Select your attribute</description>
+                <attributeTypes>
+                    <attributeType name="DateTime" />
+                </attributeTypes>
+            </property>
+
+            <property key="buttonAction" type="action">
+	             <caption>On click</caption>
+	             <description>Action to be performed when button is clicked</description>
+            </property>
+
+              <systemProperty key="Label"/>  
+              <systemProperty key="Editability"/>  
+              <systemProperty key="Visibility"/>
+        </propertyGroup>
+        
+    </properties>
+</widget>

@@ -1,0 +1,42 @@
+{
+  "name": "arabicweb",
+  "widgetName": "Arabicweb",
+  "version": "1.0.0",
+  "description": "My widget description",
+  "copyright": "© Mendix Technology BV 2022. All rights reserved.",
+  "author": "pradeep",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath":"C:\\Users\\Pradeep B\\Documents\\Mendix\\Calendar_Hijri-main_3",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.18.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "@date-io/hijri": "1.3.13",
+    "@material-ui/core": "4.12.1",
+    "@material-ui/pickers": "3.3.10",
+    "moment": "2.29.1",
+    "moment-hijri": "2.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.0",
+    "tslib": "2.3.0"
+  }
+}
